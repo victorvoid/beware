@@ -1,0 +1,22 @@
+{
+  "name": "microux",
+  "version": "0.0.1",
+  "description": "A micro library to improve the UX on your website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorvoid/microUX.git"
+  },
+  "keywords": [
+    "microux"
+  ],
+  "author": "Victor Igor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorvoid/microUX/issues"
+  },
+  "homepage": "https://github.com/victorvoid/microUX#readme"
+}

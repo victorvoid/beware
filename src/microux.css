@@ -1,0 +1,33 @@
+.online_status--on{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    background: rgba(135, 224, 73, 0.8);
+    padding: 12px 15px;
+    color: #FFF;
+    transform: translateY(-50px);
+}
+.online_status--off{
+    background: #ec8787;
+    color: #551313;
+    margin:0;
+    padding: 12px 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    line-height: 1.8;
+}
+.online_status--again{
+    animation: slideDown 2.5s 1.0s 1 ease forwards;
+}
+/*animate pop from top notification*/
+@-webkit-keyframes slideDown {
+  0%, 100% { -webkit-transform: translateY(-50px); }
+  10%, 90% { -webkit-transform: translateY(0px); }
+}
+@-moz-keyframes slideDown {
+  0%, 100% { -moz-transform: translateY(-50px); }
+  10%, 90% { -moz-transform: translateY(0px); }
+}
