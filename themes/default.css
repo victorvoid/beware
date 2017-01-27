@@ -19,6 +19,53 @@
     z-index: 10;
     line-height: 1.8;
 }
+.notification{
+  position: relative;
+  transition: all .4s;
+}
+.notification.disabled{
+  transform: translateY(-100px);
+}
+.close-button {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  top: 8px;
+  cursor: pointer;
+}
+.close-button:before,
+.close-button:after {
+  transform: rotate(-45deg);
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -25px;
+  display: block;
+  height: 5px;
+  width: 20px;
+  background-color: #551313;
+  transition: all 0.2s ease-out;
+  z-index: 10;
+}
+.close-button:after {
+  transform: rotate(45deg);
+}
+.close-button:hover:before,
+.close-button:hover:after {
+  transform: rotate(0deg);
+}
+.icon {
+  width: 26px;
+  height: 26px;
+  position: absolute;
+  margin-left: 5px;
+}
 .online_status--again{
     animation: slideDown 2.5s 1.0s 1 ease forwards;
 }
