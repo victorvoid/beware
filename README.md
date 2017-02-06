@@ -1,3 +1,3 @@
-# microUX
+# beware
 
-A micro library to improve the UX on your website.
+A micro library to improve the user experience on your website.
