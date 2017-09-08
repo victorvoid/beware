@@ -1,7 +1,9 @@
 # beware
 
+![](https://github.com/victorvoid/beware/blob/master/connection-beware.gif)
+
 A micro library to improve the user experience on your website.
- 
+
 ## Why should I use beware.js ?  :pouting_cat:
 
 ### Internet connection problems
